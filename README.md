@@ -1,7 +1,3 @@
-Here’s a comprehensive **README.md** file for your **HighKey** app, following the same clean, visually appealing format with emojis and clear sections. It highlights the features, themes, fonts, and instructions for running the app locally.
-
----
-
 # ✨ **HighKey - A Minimalist Typing Test App**
 
 ![HighKeyThumbnail](https://github.com/user-attachments/assets/2d13435e-7342-4ef2-8951-748fcaecebba)
