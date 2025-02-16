@@ -1,7 +1,3 @@
-Here’s a comprehensive **README.md** file for your **HighKey** app, following the same clean, visually appealing format with emojis and clear sections. It highlights the features, themes, fonts, and instructions for running the app locally.
-
----
-
 # ✨ **HighKey - A Minimalist Typing Test App**
 
 ![HighKey Preview](https://sereneprince.github.io/HighKey/HighKeyThumbnail.png)
@@ -128,3 +124,9 @@ For questions, feedback, or suggestions, feel free to reach out!
 ---
 
 Happy typing! 🎉
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
