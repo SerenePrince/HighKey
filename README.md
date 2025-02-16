@@ -1,8 +1,130 @@
-# React + Vite
+Here’s a comprehensive **README.md** file for your **HighKey** app, following the same clean, visually appealing format with emojis and clear sections. It highlights the features, themes, fonts, and instructions for running the app locally.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# ✨ **HighKey - A Minimalist Typing Test App**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![HighKey Preview](https://sereneprince.github.io/HighKey/HighKeyThumbnail.png)
+
+**HighKey** is a minimalist typing test app designed to help you improve your typing speed and accuracy. With a clean and intuitive interface, HighKey offers customizable themes, font choices, and a focus on user experience.
+
+🚀 **Live Version:** [**Try it out!**](https://sereneprince.github.io/HighKey/)
+
+---
+
+## 🎯 **Features**
+
+✔️ **Customizable Themes** – Choose from **20+ beautifully designed themes** to personalize your typing experience.  
+✔️ **Font Selection** – Pick your favorite font from **9+ options** for a comfortable typing feel.  
+✔️ **Word Count Control** – Test your skills with **10 to 150 words**, tailored to your preference.  
+✔️ **Real-Time Stats** – Track your **Words Per Minute (WPM)** and **Accuracy** as you type.  
+✔️ **Common Words** – Words are randomly selected from a list of the **1000 most common English words** for practical practice.  
+✔️ **Minimalist Design** – A clean, distraction-free interface for maximum focus.
+
+---
+
+## 🎨 **Themes and Fonts**
+
+### **Themes**
+
+HighKey offers a variety of themes to suit your mood and style. Here are a few examples:
+
+- **Light** – A clean, bright theme for daytime typing.
+- **Dark** – A sleek, dark theme for nighttime sessions.
+- **Neon** – A vibrant, high-contrast theme for a futuristic vibe.
+- **Lakers** – A bold purple and gold theme for basketball fans.
+- **Minty** – A refreshing green theme for a calming experience.
+
+👉 **Explore all themes in the app!**
+
+### **Fonts**
+
+Choose from a selection of modern, readable fonts:
+
+- **Nunito**
+- **Roboto**
+- **Open Sans**
+- **Montserrat**
+- **Poppins**
+- **Inter**
+- **Lato**
+- **Raleway**
+- **Ubuntu**
+
+---
+
+## 🛠️ **Tech Stack**
+
+- **React** – For building the interactive UI.
+- **JavaScript (ES6)** – For app logic and functionality.
+- **Tailwind CSS** – For styling and responsive design.
+- **HTML5** – For semantic and accessible markup.
+- **GitHub Pages** – For hosting the live version.
+
+---
+
+## ⚙️ **Running Locally**
+
+1️⃣ **Clone the repository:**
+
+```bash
+git clone https://github.com/SerenePrince/HighKey.git
+```
+
+2️⃣ **Navigate to the project directory:**
+
+```bash
+cd HighKey
+```
+
+3️⃣ **Install dependencies:**
+
+```bash
+npm install
+```
+
+4️⃣ **Start the development server:**
+
+```bash
+npm run dev
+```
+
+5️⃣ **Open:** [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 📸 **Screenshots**
+
+![Light Theme](https://via.placeholder.com/600x400.png?text=Light+Theme+Preview)  
+_Light Theme Preview_
+
+![Dark Theme](https://via.placeholder.com/600x400.png?text=Dark+Theme+Preview)  
+_Dark Theme Preview_
+
+---
+
+## 🚀 **Deployment**
+
+This app is deployed using **GitHub Pages**. To deploy your own version:
+
+1️⃣ **Build the project:**
+
+```bash
+npm run build
+```
+
+2️⃣ **Deploy to GitHub Pages:**
+
+```bash
+npm run deploy
+```
+
+---
+
+## 📝 **Feedback**
+
+For questions, feedback, or suggestions, feel free to reach out!
+
+---
+
+Happy typing! 🎉
