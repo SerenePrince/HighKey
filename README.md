@@ -4,7 +4,7 @@ Here’s a comprehensive **README.md** file for your **HighKey** app, following 
 
 # ✨ **HighKey - A Minimalist Typing Test App**
 
-![HighKey Preview](https://sereneprince.github.io/HighKey/HighKeyThumbnail.png)
+![HighKeyThumbnail](https://github.com/user-attachments/assets/2d13435e-7342-4ef2-8951-748fcaecebba)
 
 **HighKey** is a minimalist typing test app designed to help you improve your typing speed and accuracy. With a clean and intuitive interface, HighKey offers customizable themes, font choices, and a focus on user experience.
 
@@ -95,11 +95,14 @@ npm run dev
 
 ## 📸 **Screenshots**
 
-![Light Theme](https://via.placeholder.com/600x400.png?text=Light+Theme+Preview)  
-_Light Theme Preview_
+![neutral](https://github.com/user-attachments/assets/446c1cfd-1f1b-4c52-8892-d04425e89951)
+_Neutral Theme Preview_
 
-![Dark Theme](https://via.placeholder.com/600x400.png?text=Dark+Theme+Preview)  
-_Dark Theme Preview_
+![mint](https://github.com/user-attachments/assets/402cf95a-ea78-4a02-8888-6c306c92ca9e)
+_Mint Theme Preview_
+
+![sky](https://github.com/user-attachments/assets/3f2a5808-fd54-45e2-85b7-7f56b72ce9ff)
+_Sky Theme Preview_
 
 ---
 
