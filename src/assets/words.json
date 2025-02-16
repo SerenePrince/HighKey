@@ -1,0 +1,47 @@
+{
+    "words":[
+        "I", "you", "he", "she", "it", "we", "they", "me", "him", "her", "us", "them",
+        "my", "your", "his", "its", "our", "their", "mine", "yours", "hers", "ours", "theirs",
+        "this", "that", "these", "those", "who", "whom", "whose", "which", "what", "anybody",
+        "anyone", "anything", "each", "either", "everybody", "everyone", "everything", "neither",
+        "nobody", "none", "nothing", "one", "somebody", "someone", "something", "both", "few",
+        "many", "several", "all", "any", "most", "some", "such", "about", "above", "across", "after", "against", "along", "amid", "among", "around", "as",
+        "at", "before", "behind", "below", "beneath", "beside", "between", "beyond", "by", "concerning",
+        "despite", "down", "during", "except", "for", "from", "in", "inside", "into", "like", "near",
+        "of", "off", "on", "onto", "out", "outside", "over", "past", "regarding", "round", "since",
+        "through", "throughout", "to", "toward", "under", "underneath", "until", "unto", "up", "upon",
+        "with", "within", "without", "and", "or", "but", "nor", "for", "yet", "so", "although", "because", "since", "unless",
+        "while", "whereas", "though", "even", "if", "only", "provided", "assuming", "that", "until",
+        "when", "where", "whether", "while", "after", "before", "once", "since", "till", "as", "now",
+        "except", "like", "save", "than", "whenever", "wherever", "why", "how"
+    ],
+    "pronouns": [
+      "I", "you", "he", "she", "it", "we", "they", "me", "him", "her", "us", "them",
+      "my", "your", "his", "its", "our", "their", "mine", "yours", "hers", "ours", "theirs",
+      "this", "that", "these", "those", "who", "whom", "whose", "which", "what", "anybody",
+      "anyone", "anything", "each", "either", "everybody", "everyone", "everything", "neither",
+      "nobody", "none", "nothing", "one", "somebody", "someone", "something", "both", "few",
+      "many", "several", "all", "any", "most", "some", "such"
+    ],
+    "prepositions": [
+      "about", "above", "across", "after", "against", "along", "amid", "among", "around", "as",
+      "at", "before", "behind", "below", "beneath", "beside", "between", "beyond", "by", "concerning",
+      "despite", "down", "during", "except", "for", "from", "in", "inside", "into", "like", "near",
+      "of", "off", "on", "onto", "out", "outside", "over", "past", "regarding", "round", "since",
+      "through", "throughout", "to", "toward", "under", "underneath", "until", "unto", "up", "upon",
+      "with", "within", "without"
+    ],
+    "conjunctions": [
+      "and", "or", "but", "nor", "for", "yet", "so", "although", "because", "since", "unless",
+      "while", "whereas", "though", "even", "if", "only", "provided", "assuming", "that", "until",
+      "when", "where", "whether", "while", "after", "before", "once", "since", "till", "as", "now",
+      "except", "like", "save", "than", "whenever", "wherever", "why", "how"
+    ],
+    "contractions": [
+      "I'm", "you're", "he's", "she's", "it's", "we're", "they're", "I've", "you've", "we've", "they've",
+      "I'd", "you'd", "he'd", "she'd", "we'd", "they'd", "I'll", "you'll", "he'll", "she'll", "we'll", "they'll",
+      "isn't", "aren't", "wasn't", "weren't", "haven't", "hasn't", "hadn't", "won't", "wouldn't", "don't",
+      "doesn't", "didn't", "can't", "couldn't", "shouldn't", "mightn't", "mustn't", "let's", "that's", "who's",
+      "what's", "where's", "when's", "why's", "how's"
+    ]
+  }

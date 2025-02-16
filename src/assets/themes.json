@@ -1,0 +1,149 @@
+{
+    "light": {
+        "background": "bg-white",
+        "header": "text-black",
+        "card": "bg-gray-200",
+        "button": "bg-gray-300",
+        "text": "text-black"
+    },
+    "dark": {
+        "background": "bg-gray-900",
+        "header": "text-gray-100",
+        "card": "bg-gray-800",
+        "button": "bg-gray-700",
+        "text": "text-gray-100"
+    },
+    "neutral": {
+        "background": "bg-neutral-900",
+        "header": "text-white",
+        "card": "bg-neutral-700",
+        "button": "bg-neutral-600",
+        "text": "text-white"
+    },
+    "sky": {
+        "background": "bg-cyan-200",
+        "header": "text-white",
+        "card": "bg-cyan-50",
+        "button": "bg-cyan-300",
+        "text": "text-cyan-900"
+    },
+    "sakura": {
+        "background": "bg-rose-200",
+        "header": "text-white",
+        "card": "bg-white",
+        "button": "bg-rose-300",
+        "text": "text-rose-300"
+    },
+    "mint": {
+        "background": "bg-green-100",
+        "header": "text-green-900",
+        "card": "bg-white",
+        "button": "bg-green-200",
+        "text": "text-green-900"
+    },
+    "slate": {
+        "background": "bg-slate-100",
+        "header": "text-slate-900",
+        "card": "bg-white",
+        "button": "bg-slate-200",
+        "text": "text-slate-900"
+    },
+    "peach": {
+        "background": "bg-orange-100",
+        "header": "text-orange-900",
+        "card": "bg-white",
+        "button": "bg-orange-200",
+        "text": "text-orange-900"
+    },
+    "lavender": {
+        "background": "bg-purple-100",
+        "header": "text-purple-900",
+        "card": "bg-white",
+        "button": "bg-purple-200",
+        "text": "text-purple-900"
+    },
+    "sunset": {
+        "background": "bg-red-100",
+        "header": "text-red-900",
+        "card": "bg-white",
+        "button": "bg-yellow-200",
+        "text": "text-red-900"
+    },
+    "modern": {
+        "background": "bg-gray-50",
+        "header": "text-gray-900",
+        "card": "bg-gray-200",
+        "button": "bg-gray-300",
+        "text": "text-gray-900"
+    },
+    "ice": {
+        "background": "bg-blue-50",
+        "header": "text-blue-900",
+        "card": "bg-blue-100",
+        "button": "bg-blue-200",
+        "text": "text-blue-900"
+    },
+    "coral": {
+        "background": "bg-orange-50",
+        "header": "text-orange-900",
+        "card": "bg-orange-100",
+        "button": "bg-orange-200",
+        "text": "text-orange-900"
+    },
+    "industrial": {
+        "background": "bg-gray-800",
+        "header": "text-gray-100",
+        "card": "bg-gray-600",
+        "button": "bg-gray-500",
+        "text": "text-gray-100"
+    },
+    "sunrise": {
+        "background": "bg-yellow-50",
+        "header": "text-yellow-900",
+        "card": "bg-yellow-100",
+        "button": "bg-pink-200",
+        "text": "text-yellow-900"
+    },
+    "ocean": {
+        "background": "bg-teal-50",
+        "header": "text-teal-900",
+        "card": "bg-teal-100",
+        "button": "bg-teal-200",
+        "text": "text-teal-900"
+    },
+    "earth": {
+        "background": "bg-yellow-50",
+        "header": "text-green-900",
+        "card": "bg-green-100",
+        "button": "bg-yellow-200",
+        "text": "text-green-900"
+    },
+    "neon": {
+        "background": "bg-black",
+        "header": "text-pink-400",
+        "card": "bg-black",
+        "button": "bg-green-300",
+        "text": "text-pink-400"
+    },
+    "elegant": {
+        "background": "bg-blue-900",
+        "header": "text-blue-100",
+        "card": "bg-blue-700",
+        "button": "bg-blue-600",
+        "text": "text-blue-100"
+    },
+    "minty": {
+        "background": "bg-green-50",
+        "header": "text-green-900",
+        "card": "bg-green-100",
+        "button": "bg-green-200",
+        "text": "text-green-900"
+    },
+    "lakers": {
+        "background": "bg-black",
+        "header": "text-yellow-400",
+        "card": "bg-purple-400",
+        "button": "bg-white",
+        "text": "text-white"
+    }
+}
