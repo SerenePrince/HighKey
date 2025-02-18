@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import themes from "./assets/themes.json";
-import fonts from "./assets/fonts";
 import common from "./assets/common.json";
 import ThemeDialog from "./components/ThemeDialog";
 
