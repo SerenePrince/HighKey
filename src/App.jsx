@@ -23,6 +23,7 @@ function App() {
   const [startTime, setStartTime] = useState(null);
   const [accuracy, setAccuracy] = useState(0);
   const [wpm, setWpm] = useState(0);
+  const [isTestFinished, setIsTestFinished] = useState(false);
   const dialogRef = useRef(null);
   const countRef = useRef(count);
 
@@ -48,18 +49,6 @@ function App() {
     localStorage.setItem("count", count);
   }, [count]);
 
-  useEffect(() => {
-    if (!startTime || index === 0 || index === words.length) return;
-
-    const interval = setInterval(() => {
-      const elapsedTime = (Date.now() - startTime) / 60000; // Convert ms to minutes
-      const wpmValue = elapsedTime > 0 ? Math.round(index / elapsedTime) : 0;
-      setWpm(wpmValue);
-    }, 500);
-
-    return () => clearInterval(interval);
-  }, [index, startTime, words]);
-
   const generateWords = (count) => {
     const newWords = Array.from(
       { length: count },
@@ -69,10 +58,14 @@ function App() {
   };
 
   const handleInputChange = (e) => {
-    setInput(e.target.value);
+    if (!isTestFinished) {
+      setInput(e.target.value);
+    }
   };
 
   const handleKeyDown = (e) => {
+    if (isTestFinished) return;
+
     if (!startTime && inputs.length === 0 && e.key !== " ") {
       setStartTime(Date.now());
     }
@@ -111,6 +104,7 @@ function App() {
 
     const length = Math.max(words.length, finalInputs.length);
 
+    // Calculate total and correct letters
     for (let i = 0; i < length; i++) {
       const word = words[i] || "";
       const input = finalInputs[i] || "";
@@ -129,10 +123,13 @@ function App() {
     setAccuracy(accuracyValue);
 
     const endTime = Date.now();
-    const timeInMinutes = (endTime - startTime) / 60000;
+    const timeInMinutes = (endTime - startTime) / 60000; // Convert ms to minutes
+
     const wpmValue =
-      timeInMinutes > 0 ? Math.round(finalInputs.length / timeInMinutes) : 0;
+      timeInMinutes > 0 ? Math.round(correctLetters / 5 / timeInMinutes) : 0;
+
     setWpm(wpmValue);
+    setIsTestFinished(true); // Mark the test as finished
   };
 
   const reset = (value) => {
@@ -143,6 +140,7 @@ function App() {
     setAccuracy(0);
     setWpm(0);
     setInputs([]);
+    setIsTestFinished(false); // Reset the test finish status
     generateWords(value);
   };
 
@@ -159,9 +157,8 @@ function App() {
         <h1 className="text-xl font-bold tracking-widest">HighKey</h1>
         <span className="cursor-default text-xl font-semibold tracking-wider">
           {[10, 25, 50, 75, 100, 150].map((value) => (
-            <>
+            <span key={value}>
               <button
-                key={value}
                 onClick={() => {
                   reset(value);
                 }}
@@ -172,7 +169,7 @@ function App() {
                 {value}
               </button>
               {value === 150 ? "" : " / "}
-            </>
+            </span>
           ))}
         </span>
         <button
@@ -187,10 +184,13 @@ function App() {
       <main
         className={`${background} mx-auto flex h-full w-4xl flex-col justify-center gap-3 text-center`}
       >
-        <span className={`${header} text-lg font-semibold tracking-wider`}>
-          WPM: {wpm === 0 ? "__" : wpm} / ACC:{" "}
-          {accuracy === 0 ? "__" : accuracy}%
-        </span>
+        <div>
+          <span className={`${header} text-lg font-semibold tracking-wider`}>
+            WPM: {wpm === 0 ? "__" : wpm} / ACC:{" "}
+            {accuracy === 0 ? "__" : accuracy}%
+          </span>
+        </div>
+
         <div
           className={`${card} flex w-full flex-col gap-3 rounded-lg p-3`}
           role="region"
@@ -217,6 +217,7 @@ function App() {
               onKeyDown={handleKeyDown}
               autoFocus
               aria-label="Type the words here"
+              disabled={isTestFinished} // Disable input after test completion
             />
             <button
               onClick={() => reset(count)}
@@ -233,7 +234,9 @@ function App() {
         className={`${header} inline-flex w-full justify-evenly`}
         role="contentinfo"
       >
-        <h1 className="text-xl font-bold tracking-widest">Noah Park-Nguyen</h1>
+        <h1 className="text-xl font-bold tracking-widest">
+          Developed by SerenePrince
+        </h1>
         <a
           target="_blank"
           rel="noopener noreferrer"

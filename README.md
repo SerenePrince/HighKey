@@ -2,7 +2,7 @@
 
 ![HighKeyThumbnail](https://github.com/user-attachments/assets/2d13435e-7342-4ef2-8951-748fcaecebba)
 
-**HighKey** is a minimalist typing test app designed to help you improve your typing speed and accuracy. With a clean and intuitive interface, HighKey offers customizable themes, font choices, and a focus on user experience.
+**HighKey** is a minimalist typing test app designed to help you improve your typing speed and accuracy. With a clean and intuitive interface, HighKey offers customizable themes, font choices, and a focus on user experience. Inspired by Jack Miodec's Monkeytype and briano1905's typings
 
 🚀 **Live Version:** [**Try it out!**](https://sereneprince.github.io/HighKey/)
 
