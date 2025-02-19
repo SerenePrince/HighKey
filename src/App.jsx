@@ -241,7 +241,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/SerenePrince/HighKey"
-          className="text-xl font-semibold tracking-wide"
+          className="text-xl font-semibold tracking-wide hover:underline"
           aria-label="Visit GitHub repository"
         >
           GitHub
